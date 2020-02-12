@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<phpunit xmlns="https://schema.phpunit.de/coverage/1.0">
+  <build time="Wed Feb 12 9:38:25 GMT+0000 2020" phpunit="7.5.20" coverage="6.1.4">
+    <runtime name="PHP" version="7.3.5" url="https://secure.php.net/"/>
+    <driver name="xdebug" version="2.9.2"/>
+  </build>
+  <project source="C:\Users\sesa472546\Documents\Perso\cours\LP\PROJETCOVOITURAGE\covoiturage\src">
+    <tests>
+      <test name="App\Tests\UserTest::testNewUser" size="unknown" result="0" status="PASSED"/>
+      <test name="App\Tests\UserTest::testUserNom" size="unknown" result="0" status="PASSED"/>
+      <test name="App\Tests\UserTest::testUserPrenom" size="unknown" result="0" status="PASSED"/>
+      <test name="App\Tests\UserTest::testUserUsername" size="unknown" result="0" status="PASSED"/>
+    </tests>
+    <directory name="/">
+      <totals>
+        <lines total="196" comments="53" code="143" executable="32" executed="10" percent="31.25"/>
+        <methods count="12" tested="7" percent="58.33"/>
+        <functions count="0" tested="0" percent="0"/>
+        <classes count="3" tested="1" percent="33.33"/>
+        <traits count="0" tested="0" percent="0"/>
+      </totals>
+      <directory name="Controller">
+        <totals>
+          <lines total="18" comments="0" code="18" executable="0" executed="0" percent="0"/>
+          <methods count="0" tested="0" percent="0"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="0" tested="0" percent="0"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="TrajetController.php" href="Controller/TrajetController.php.xml">
+          <totals>
+            <lines total="9" comments="0" code="9" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+        <file name="UserController.php" href="Controller/UserController.php.xml">
+          <totals>
+            <lines total="9" comments="0" code="9" executable="0" executed="0" percent="0"/>
+            <methods count="0" tested="0" percent="0"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="0" tested="0" percent="0"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Entity">
+        <totals>
+          <lines total="74" comments="17" code="57" executable="10" executed="10" percent="100.00"/>
+          <methods count="7" tested="7" percent="100.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="1" percent="100.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="User.php" href="Entity/User.php.xml">
+          <totals>
+            <lines total="74" comments="17" code="57" executable="10" executed="10" percent="100.00"/>
+            <methods count="7" tested="7" percent="100.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="1" percent="100.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <directory name="Repository">
+        <totals>
+          <lines total="50" comments="36" code="14" executable="2" executed="0" percent="0.00"/>
+          <methods count="1" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+        <file name="UserRepository.php" href="Repository/UserRepository.php.xml">
+          <totals>
+            <lines total="50" comments="36" code="14" executable="2" executed="0" percent="0.00"/>
+            <methods count="1" tested="0" percent="0.00"/>
+            <functions count="0" tested="0" percent="0"/>
+            <classes count="1" tested="0" percent="0.00"/>
+            <traits count="0" tested="0" percent="0"/>
+          </totals>
+        </file>
+      </directory>
+      <file name="Kernel.php" href="Kernel.php.xml">
+        <totals>
+          <lines total="54" comments="0" code="54" executable="20" executed="0" percent="0.00"/>
+          <methods count="4" tested="0" percent="0.00"/>
+          <functions count="0" tested="0" percent="0"/>
+          <classes count="1" tested="0" percent="0.00"/>
+          <traits count="0" tested="0" percent="0"/>
+        </totals>
+      </file>
+    </directory>
+  </project>
+</phpunit>
