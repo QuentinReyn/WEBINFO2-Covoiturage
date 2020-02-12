@@ -38,9 +38,15 @@ class Lieu
      */
     private $trajetsdepart;
 
+    /**
+     * @ORM\OneToMany(targetEntity="App\Entity\Trajet", mappedBy="lieuarrivee")
+     */
+    private $trajetsarrivee;
+
     public function __construct()
     {
         $this->trajetsdepart = new ArrayCollection();
+        $this->trajetsarrivee = new ArrayCollection();
     }
 
     public function getId(): ?int
@@ -109,6 +115,37 @@ class Lieu
             // set the owning side to null (unless already changed)
             if ($trajetsdepart->getLieudepart() === $this) {
                 $trajetsdepart->setLieudepart(null);
+            }
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return Collection|Trajet[]
+     */
+    public function getTrajetsarrivee(): Collection
+    {
+        return $this->trajetsarrivee;
+    }
+
+    public function addTrajetsarrivee(Trajet $trajetsarrivee): self
+    {
+        if (!$this->trajetsarrivee->contains($trajetsarrivee)) {
+            $this->trajetsarrivee[] = $trajetsarrivee;
+            $trajetsarrivee->setLieuarrivee($this);
+        }
+
+        return $this;
+    }
+
+    public function removeTrajetsarrivee(Trajet $trajetsarrivee): self
+    {
+        if ($this->trajetsarrivee->contains($trajetsarrivee)) {
+            $this->trajetsarrivee->removeElement($trajetsarrivee);
+            // set the owning side to null (unless already changed)
+            if ($trajetsarrivee->getLieuarrivee() === $this) {
+                $trajetsarrivee->setLieuarrivee(null);
             }
         }
 

@@ -11,11 +11,13 @@
       <change beforePath="$PROJECT_DIR$/test-coverage/Controller/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Controller/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-coverage/Controller/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Controller/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-coverage/Entity/Lieu.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Entity/Lieu.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Entity/Trajet.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Entity/Trajet.php.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-coverage/Entity/User.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Entity/User.php.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-coverage/Entity/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Entity/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-coverage/Entity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Entity/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-coverage/Kernel.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Kernel.php.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-coverage/Repository/LieuRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Repository/LieuRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Repository/TrajetRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Repository/TrajetRepository.php.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-coverage/Repository/UserRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Repository/UserRepository.php.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-coverage/Repository/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Repository/dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-coverage/Repository/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Repository/index.html" afterDir="false" />
@@ -220,7 +222,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581497588373</updated>
-      <workItem from="1581497589483" duration="6708000" />
+      <workItem from="1581497589483" duration="8033000" />
     </task>
     <servers />
   </component>
