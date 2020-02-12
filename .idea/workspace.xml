@@ -2,19 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83fc9b3f-f23c-47da-ae12-33f677294ae1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/LieuController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/TrajetController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/UserController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-coverage/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-coverage/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-coverage/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-coverage/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/LieuTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/TrajetTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Lieu.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Lieu.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Trajet.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Trajet.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Controller/LieuController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Controller/LieuController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Controller/TrajetController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Controller/TrajetController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Controller/UserController.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Controller/UserController.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Controller/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Controller/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Controller/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Controller/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Entity/Lieu.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Entity/Lieu.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Entity/User.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Entity/User.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Entity/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Entity/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Entity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Entity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Kernel.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Kernel.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Repository/LieuRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Repository/LieuRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Repository/UserRepository.php.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Repository/UserRepository.php.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Repository/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Repository/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/Repository/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/Repository/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-coverage/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-coverage/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TrajetTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TrajetTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +220,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581497588373</updated>
-      <workItem from="1581497589483" duration="5848000" />
+      <workItem from="1581497589483" duration="6708000" />
     </task>
     <servers />
   </component>
